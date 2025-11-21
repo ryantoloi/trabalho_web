@@ -1,0 +1,60 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee+Spice&family=Frijole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mogra&family=Nabla&family=Press+Start+2P&family=Rubik+Puddles&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+}
+
+
+body{
+    background-image: url(background_grafitte.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+
+nav{
+    background-color: black;
+    color: white;
+    font-family: "Frijole", system-ui;
+    font-weight: 200;
+    font-size: 20px;
+     font-style: normal;
+}
+
+#Formulario{
+  margin-top: 10vh;
+  background-color: rgba(32, 4, 50, 0.8);
+  padding: 0;
+  border-radius: 15px;
+  display: flex; /* Define o container como flexível */
+  flex-wrap: wrap; /* Permite que os itens quebrem para a próxima linha */
+  justify-content: center;
+  margin-left: 20%;
+  margin-right: 20%;
+}
+
+#campos{
+  
+  width: 70vh;
+  margin-left: 3vh;
+}
+
+label{
+  color: white;
+}
+
+h1{
+ font-family: "Frijole", system-ui;
+    font-weight: 200;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 10vh;
+}
+
+#botao_confirma{
+  
+  margin-top: 20px;
+}
+

@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee+Spice&family=Frijole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mogra&family=Nabla&family=Press+Start+2P&family=Rubik+Puddles&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body
+    {
+   font-family: "Frijole", system-ui;
+    font-weight: 200;
+  font-size: 20px;
+  font-style: normal;
+  color: white;
+ background-image: url(background_grafitte.png);
+
+    color: white;
+}
+
+
+#maps{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin-top: 5%;
+  background-image: url(background_grafitte.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bokastore{
+width: 125vh;
+height: 100vh;
+border: 20px;
+ 
+
+}
+
+nav{
+    font-size: 20px;
+background-color: black;
+}

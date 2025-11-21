@@ -1,0 +1,52 @@
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee+Spice&family=Frijole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mogra&family=Nabla&family=Press+Start+2P&family=Rubik+Puddles&display=swap');
+
+
+*{margin: 0;
+padding: 0;
+}
+
+
+body{
+
+    background-image: url("background_grafitte.png");
+    color: white;
+}
+
+nav{
+  background-color: black;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: rgb(0, 0, 0);
+    font-family: "Frijole", system-ui;
+    font-weight: 200;
+  font-size: 20px;
+  font-style: normal;
+}
+
+#Formulario{
+  margin-top: 10vh;
+  background-color: rgba(32, 4, 50, 0.5);
+  padding: 0;
+  margin-right: 30vh;
+  margin-left: 30vh;
+  border-radius: 15px;
+}
+
+#campos{
+  width: 70vh;
+  margin-left: 3vh;
+  border-radius: 10px;
+}
+
+label{
+  color: white;
+}
+
+h1{
+ font-family: "Frijole", system-ui;
+    font-weight: 200;
+  font-size: 40px;
+  font-style: normal;
+  margin-top: 10vh;
+}

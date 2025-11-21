@@ -1,0 +1,150 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Asimovian&family=Bungee+Spice&family=Frijole&family=Lobster+Two:ital,wght@0,400;0,700;1,400;1,700&family=Mogra&family=Nabla&family=Press+Start+2P&family=Rubik+Puddles&display=swap');
+
+
+html {
+    scroll-behavior: smooth;
+    
+}
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#minhaNavbar{
+    position: sticky;
+    z-index: 1000;    /* Garante que fique acima de outros elementos */
+}
+
+.sticky {
+    position: fixed; /* Fixa a barra */
+    top: 0;
+    left: 0;
+    /* Estilos adicionais quando está fixa: sombra, cor, etc. */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+
+section{
+    height: 110vh;
+    padding: 60px 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  
+}
+
+#inicio{
+    background-image: url("background_grafitte.png");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+}
+
+h1,h3,h2{
+  font-family: "Frijole", system-ui;
+  font-weight: 200;
+  font-size: 25px;
+  font-style: normal;
+}
+
+.botao_img{
+ border:none;
+ cursor: pointer;
+ background-color: black;
+ border-radius: 30px;
+ 
+}
+
+.scroll-btn {
+    margin-top: 30px;
+}
+
+#botao{
+   width: 20vh;
+   height: 7vh;
+   font-size: 20px;
+   border-radius: 15px;
+   background-color: blueviolet;
+   
+}
+
+nav{
+    background-color: black;
+    background-position:bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white;
+      font-family: "Frijole", system-ui;
+  font-weight: 200;
+  font-size: 20px;
+  font-style: normal;
+}
+
+#desconto{
+    background-color: rgb(0, 0, 0);
+    border-radius: 18px;
+    border-color: rgb(87, 87, 87);
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+   
+    
+    
+}
+
+#thirt{
+
+      background-color: rgb(81, 44, 12);
+    height: 105vh
+    
+}
+#second{
+    background-color: rgb(90, 47, 12);
+    height: 110vh;
+}
+
+#btn{
+  margin-top: 20vh;
+
+}
+
+h2{
+    margin-top: -30vh;
+    
+}
+
+#board{
+    background-color: black;
+
+}
+
+#fourth{
+    background-color: rgb(74, 44, 7);
+}
+
+#rodape{
+    font-size: 20px;
+}
+
+#newCard {
+    transition: all 0.3s ease;
+    border: 1px solid #ccc;
+    cursor: pointer;
+}
+
+.destacado {
+    border: 3px solid #007bff !important; /* Cor de destaque do Bootstrap */
+    box-shadow: 0 0 15px rgba(0, 123, 255, 0.4);
+    transform: scale(1.02);
+}
+
+
+
+footer{
+    background-color: #49320e;
+    text-align: center;
+    }
+
